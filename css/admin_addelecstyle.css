@@ -1,0 +1,205 @@
+
+table{
+    text-align: center;
+    border-collapse: collapse; 
+    border-spacing: 0;
+    background-color:#1b1b1b;
+      
+}
+
+
+td {
+    padding:2rem;
+    text-align: center;
+    border:0px solid;
+}
+
+
+
+
+
+/*Text css*/
+
+td input[type=text]{
+    background: #212121;
+    border:0px solid;
+    border-bottom: 1px solid whitesmoke;
+    color:whitesmoke;
+    height:30px;
+    padding:20px;
+}
+
+td input[type=text]:focus{
+    background: #171717;
+    outline:none;
+    border-bottom: 1px solid #990099;
+    color:whitesmoke;
+    height:30px;
+}
+
+td input[type=text]:hover{
+    outline:none;
+    border-bottom: 1px solid #990099;
+}
+/*Date Css*/
+.forminput{
+    background: #212121;
+    border:0px solid;
+    border-bottom: 1px solid whitesmoke;
+    color:whitesmoke;
+    height:30px;
+    padding:2px;
+    width:130px;
+    margin-left: 0%;
+}
+
+.forminput:focus{
+    background: #171717;
+    outline:none;
+    border-bottom: 1px solid #990099;
+    color:whitesmoke;
+    height:30px;
+}
+
+.forminput:hover{
+    outline:none;
+    border-bottom: 1px solid #990099;
+}
+
+/*Number CSS*/
+
+
+td input[type=number]{
+    background: #212121;
+    border:0px solid;
+    border-bottom: 1px solid whitesmoke;
+    color:whitesmoke;
+    height:30px;
+    padding:20px;
+}
+
+td input[type=number]:focus{
+    background: #171717;
+    outline:none;
+    border-bottom: 1px solid #990099;
+    color:whitesmoke;
+    height:30px;
+}
+
+td input[type=number]:hover{
+    outline:none;
+    border-bottom: 1px solid #990099;
+}
+
+/*Email CSS*/
+
+
+td input[type=email]{
+    background: #212121;
+    border:0px solid;
+    border-bottom: 1px solid whitesmoke;
+    color:whitesmoke;
+    height:30px;
+    padding:20px;
+}
+
+td input[type=email]:focus{
+    background: #171717;
+    outline:none;
+    border-bottom: 1px solid #990099;
+    color:whitesmoke;
+    height:30px;
+}
+
+td input[type=email]:hover{
+    outline:none;
+    border-bottom: 1px solid #990099;
+}
+
+/*Password CSS*/
+
+
+td input[type=password]{
+    background: #212121;
+    border:0px solid;
+    border-bottom: 1px solid whitesmoke;
+    color:whitesmoke;
+    height:30px;
+    padding:20px;
+}
+
+td input[type=password]:focus{
+    background: #171717;
+    outline:none;
+    border-bottom: 1px solid #990099;
+    color:whitesmoke;
+    height:30px;
+}
+
+td input[type=password]:hover{
+    outline:none;
+    border-bottom: 1px solid #990099;
+}
+
+/*Select*/
+#courselist{
+    width:120px;
+    background: #212121;
+    border:0px solid;
+    border-bottom: 1px solid whitesmoke;
+    color:whitesmoke;
+    height:45px;
+    padding:1px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#courselist:hover{
+    outline:none;
+    border-bottom: 1px solid #990099;
+} 
+
+#courselist:focus{
+    background: #171717;
+    outline:none;
+    border-bottom: 1px solid #990099;
+    color:whitesmoke;
+}
+
+
+/*Submit css*/
+tr button[type=submit]{
+    padding:15px;
+    color:whitesmoke;
+    background-color:#272727;
+    border:1px solid #520052;
+    display:block;
+    margin-left: 25%;
+    
+}
+
+select{
+    margin-left:10%;
+}
+
+tr button[type=submit]:hover{
+    cursor:pointer;
+    background-color:#171717;
+}
+th{
+    font-size:10px;
+    text-align: left;
+    padding: 5px;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+
+}
+.footer,.push{
+    text-align: center;
+    font-size: 8px;
+}

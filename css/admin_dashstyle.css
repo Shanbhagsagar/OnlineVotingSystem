@@ -1,0 +1,34 @@
+table{
+  
+    border-collapse: collapse;
+    border-spacing: 0.5rem;
+}
+thead{
+    background-color:#383838;
+    color:whitesmoke;
+    
+    border-bottom: 1px solid #990099;
+}
+
+td, th {
+ 
+  padding: 1rem;
+  width:20%;
+  text-align: center;
+}
+
+tbody{
+   
+    background-color:#1b1b1b;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* the bottom margin is the negative value of the footer's height */
+}
+.footer,.push{
+    text-align: center;
+    font-size: 8px;
+     /* .push must be the same height as .footer */
+}

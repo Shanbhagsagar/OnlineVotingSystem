@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right, #2520BD , #1CEAF1); 
+}
+
+.h1{
+    font-size: 60px;
+    text-align:center;
+    font-weight: bold;
+    color:white;
+    font-family:Times New Roman,sans-serif;
+}
+
+/*   Menu Bar */
+
+td{
+
+    font-size: 40px;
+    text-align: center;
+}
+
+td a{
+    text-decoration: none;
+    color:white;
+}
+
+td a:hover{
+    background-color: white;
+    padding: 10px;
+    color:#2520BD;
+    border-radius: 10px 100px / 120px; 
+}
+
+td a.active{
+    background-color: white;
+    color:#2520BD;
+    border-radius: 10px 100px / 120px;
+    padding: 10px;
+}
+
